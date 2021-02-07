@@ -1,0 +1,49 @@
+01/20/2021 22:08:03 -05:00 Application Starting.
+01/20/2021 22:11:21 -05:00 Application Starting.
+01/20/2021 22:15:50 -05:00 Application Starting.
+01/21/2021 10:26:36 -05:00 Application Starting.
+01/21/2021 10:28:37 -05:00 Application Starting.
+01/21/2021 17:34:10 -05:00 Application Starting.
+01/21/2021 17:35:03 -05:00 Application Starting.
+01/21/2021 17:36:55 -05:00 Application Starting.
+01/21/2021 17:38:02 -05:00 Application Starting.
+01/21/2021 17:45:39 -05:00 Application Starting.
+01/21/2021 17:48:00 -05:00 Application Starting.
+01/21/2021 19:01:32 -05:00 Application Starting.
+01/21/2021 19:03:29 -05:00 Application Starting.
+01/21/2021 19:03:56 -05:00 Getting a movie list
+01/21/2021 19:04:28 -05:00 HTTP "GET" "/WeatherForecast" responded 200 in 17.9035 ms
+01/21/2021 19:04:45 -05:00 HTTP "GET" "/Movies/Api/movies" responded 200 in 49238.4116 ms
+01/21/2021 19:52:22 Application Starting.
+01/21/2021 19:53:32 Application Starting.
+01/23/2021 07:41:59 Application Starting.
+01/23/2021 11:33:31 Application Starting.
+01/23/2021 11:33:39 Getting a movie list
+01/23/2021 11:33:39 HTTP "GET" "/Movies/Api/movies" responded 200 in 86.8258 ms
+01/23/2021 11:53:31 Application Starting.
+01/23/2021 11:54:12 Getting a movie list
+01/23/2021 11:54:12 HTTP "GET" "/Movies/Api/movies/1" responded 200 in 181.3813 ms
+01/23/2021 12:03:49 Application Starting.
+01/23/2021 12:04:01 Getting a movie with id of 1
+01/23/2021 12:04:01 HTTP "GET" "/Movies/Api/movies/1" responded 200 in 95.9971 ms
+01/23/2021 16:40:18 Application Starting.
+01/23/2021 16:41:14 Getting a movie by name
+01/23/2021 16:41:14 HTTP "GET" "/Movies/Api/movies/title?title=Iron%20Man" responded 200 in 179.3871 ms
+01/23/2021 17:22:58 Application Starting.
+01/23/2021 17:23:14 Getting a movie by name
+01/23/2021 17:23:15 HTTP "GET" "/Movies/Api/movies/title" responded 200 in 96.2929 ms
+01/23/2021 17:27:58 Application Starting.
+01/23/2021 17:28:20 Getting a movie by name
+01/23/2021 17:28:20 HTTP "GET" "/Movies/Api/movies/title" responded 200 in 166.2119 ms
+01/23/2021 17:30:12 Application Starting.
+01/23/2021 17:30:33 Getting a movie by name
+01/23/2021 17:30:59 HTTP "GET" "/Movies/Api/movies/title" responded 200 in 38937.0914 ms
+01/23/2021 17:32:14 Application Starting.
+01/23/2021 17:32:23 The title cannot be empty
+01/23/2021 17:32:23 HTTP "GET" "/Movies/Api/movies/title" responded 204 in 139.4973 ms
+01/23/2021 17:34:21 Application Starting.
+01/23/2021 17:34:42 Getting a movie by name
+01/23/2021 17:34:43 HTTP "GET" "/Movies/Api/movies/title?title=Iron%20man" responded 200 in 172.2177 ms
+01/23/2021 17:36:18 Application Starting.
+01/23/2021 17:36:44 Getting a movie by name
+01/23/2021 17:37:29 HTTP "GET" "/Movies/Api/movies/title?title=Iron%20Man" responded 200 in 45378.4242 ms
