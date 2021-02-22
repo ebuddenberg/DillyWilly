@@ -7,9 +7,12 @@ namespace DillyWilly.Interfaces
 {
    public interface IAdminFunctions<in T> : IBase
    {
-       public bool Edit(T m);
+       public bool Exists(T m);
        public bool Create(T m);
        public bool Update(T m);
        public bool Delete(T m);
+       public bool Read(T m);
    }
-}
+
+   }
+

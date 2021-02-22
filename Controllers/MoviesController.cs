@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using DataLayer.TableSets;
 using DillyWilly.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -14,10 +15,12 @@ namespace DillyWilly.Controllers
     public class MoviesController : ControllerBase
     {
         private readonly ILogger<MoviesController> _logger;
+        private Movie _movie;
 
 
-        public MoviesController(ILogger<MoviesController> logger)
+        public MoviesController(ILogger<MoviesController> logger,Movie movie)
         {
+            _movie = movie;
             _logger = logger;
             
             // _logger = logger;
@@ -44,7 +47,7 @@ namespace DillyWilly.Controllers
 
             _logger.LogInformation($"Getting a movie with id of {id}");
             var movie = from s in GetMovieList()
-                        where id == s.Id
+                        where id == s.MovieId
                         select (s);
             return Ok(movie);
         }
@@ -62,7 +65,9 @@ namespace DillyWilly.Controllers
 
                 _logger.LogInformation("Getting a movie by name");
                 var movie = from s in GetMovieList()
-                            where title == s.Name
+                            where title == s.Title
+                            
+
                             select (s);
                 return Ok(movie);
             }

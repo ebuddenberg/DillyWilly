@@ -47,3 +47,125 @@
 01/23/2021 17:36:18 Application Starting.
 01/23/2021 17:36:44 Getting a movie by name
 01/23/2021 17:37:29 HTTP "GET" "/Movies/Api/movies/title?title=Iron%20Man" responded 200 in 45378.4242 ms
+02/15/2021 15:39:35 Application Starting.
+02/15/2021 15:39:37 The Application failed to start.
+System.ArgumentException: 'AddDbContext' was called with configuration, but the context type 'ApplicationInitializer' only declares a parameterless constructor. This means that the configuration passed to 'AddDbContext' will never be used. If configuration is passed to 'AddDbContext', then 'ApplicationInitializer' should declare a constructor that accepts a DbContextOptions<ApplicationInitializer> and must pass it to the base constructor for DbContext.
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CheckContextConstructors[TContext]()
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`2 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContext](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at DillyWilly.Startup.ConfigureServices(IServiceCollection services) in C:\Users\ebudd\projects\DillyWilly\Startup.cs:line 29
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DillyWilly.Program.Main(String[] args) in C:\Users\ebudd\projects\DillyWilly\Program.cs:line 24
+02/15/2021 15:40:51 Application Starting.
+02/15/2021 15:41:17 The Application failed to start.
+System.ArgumentException: 'AddDbContext' was called with configuration, but the context type 'ApplicationInitializer' only declares a parameterless constructor. This means that the configuration passed to 'AddDbContext' will never be used. If configuration is passed to 'AddDbContext', then 'ApplicationInitializer' should declare a constructor that accepts a DbContextOptions<ApplicationInitializer> and must pass it to the base constructor for DbContext.
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CheckContextConstructors[TContext]()
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`2 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContext](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at DillyWilly.Startup.ConfigureServices(IServiceCollection services) in C:\Users\ebudd\projects\DillyWilly\Startup.cs:line 29
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DillyWilly.Program.Main(String[] args) in C:\Users\ebudd\projects\DillyWilly\Program.cs:line 24
+02/15/2021 15:41:52 Application Starting.
+02/15/2021 16:00:48 Application Starting.
+02/15/2021 16:01:32 The Application failed to start.
+System.ArgumentException: 'AddDbContext' was called with configuration, but the context type 'ApplicationInitializer' only declares a parameterless constructor. This means that the configuration passed to 'AddDbContext' will never be used. If configuration is passed to 'AddDbContext', then 'ApplicationInitializer' should declare a constructor that accepts a DbContextOptions<ApplicationInitializer> and must pass it to the base constructor for DbContext.
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CheckContextConstructors[TContext]()
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`2 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContext](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at DillyWilly.Startup.ConfigureServices(IServiceCollection services) in C:\Users\ebudd\projects\DillyWilly\Startup.cs:line 29
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DillyWilly.Program.Main(String[] args) in C:\Users\ebudd\projects\DillyWilly\Program.cs:line 24
+02/15/2021 16:03:28 Application Starting.
+02/15/2021 16:04:19 The Application failed to start.
+System.ArgumentException: 'AddDbContext' was called with configuration, but the context type 'ApplicationInitializer' only declares a parameterless constructor. This means that the configuration passed to 'AddDbContext' will never be used. If configuration is passed to 'AddDbContext', then 'ApplicationInitializer' should declare a constructor that accepts a DbContextOptions<ApplicationInitializer> and must pass it to the base constructor for DbContext.
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CheckContextConstructors[TContext]()
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`2 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContextService,TContextImplementation](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext[TContext](IServiceCollection serviceCollection, Action`1 optionsAction, ServiceLifetime contextLifetime, ServiceLifetime optionsLifetime)
+   at DillyWilly.Startup.ConfigureServices(IServiceCollection services) in C:\Users\ebudd\projects\DillyWilly\Startup.cs:line 29
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DillyWilly.Program.Main(String[] args) in C:\Users\ebudd\projects\DillyWilly\Program.cs:line 24
+02/15/2021 16:05:22 Application Starting.
+02/15/2021 16:05:30 The Application failed to start.
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: DataLayer.ApplicationInitializer Lifetime: Scoped ImplementationType: DataLayer.ApplicationInitializer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptionsBuilder`1[DataLayer.ApplicationInitializer]' while attempting to activate 'DataLayer.ApplicationInitializer'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: DataLayer.ApplicationInitializer Lifetime: Scoped ImplementationType: DataLayer.ApplicationInitializer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptionsBuilder`1[DataLayer.ApplicationInitializer]' while attempting to activate 'DataLayer.ApplicationInitializer'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptionsBuilder`1[DataLayer.ApplicationInitializer]' while attempting to activate 'DataLayer.ApplicationInitializer'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DillyWilly.Program.Main(String[] args) in C:\Users\ebudd\projects\DillyWilly\Program.cs:line 24
+02/15/2021 16:05:46 Application Starting.
+02/15/2021 16:06:50 The Application failed to start.
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: DataLayer.ApplicationInitializer Lifetime: Scoped ImplementationType: DataLayer.ApplicationInitializer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptionsBuilder`1[DataLayer.ApplicationInitializer]' while attempting to activate 'DataLayer.ApplicationInitializer'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: DataLayer.ApplicationInitializer Lifetime: Scoped ImplementationType: DataLayer.ApplicationInitializer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptionsBuilder`1[DataLayer.ApplicationInitializer]' while attempting to activate 'DataLayer.ApplicationInitializer'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptionsBuilder`1[DataLayer.ApplicationInitializer]' while attempting to activate 'DataLayer.ApplicationInitializer'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DillyWilly.Program.Main(String[] args) in C:\Users\ebudd\projects\DillyWilly\Program.cs:line 24
+02/15/2021 16:12:13 Application Starting.
+02/15/2021 16:12:46 Getting a movie with id of 1
+02/15/2021 16:12:46 HTTP "GET" "/Movies/Api/movies/1" responded 200 in 136.1994 ms
